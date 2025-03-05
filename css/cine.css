@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "cine";
+    src: url("../font/Nunito-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: #2a373f;
+    color: white;
+    margin: 0;
+    font-family: Corbel, serif;
+    margin-bottom: 100px;
+}
+
+
+
+/* barra de navegacio aka navbar */
+.titol-navbar {
+    font-size: 30px;
+    color: #a7a7a7;
+    margin-right: 240px;
+}
+.navbar {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 20px;
+}
+.logo-navbar {
+    height: 20px;
+    width: 54px;
+    margin-top: 30px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+.navbar-background {
+    display: flex;
+    justify-content: center;
+    background-color: #0b161c;
+}
+.navbar-background a:link, .navbar-background a:visited {
+    text-decoration: none;
+}
+.navbar a:link, .navbar a:visited {
+    margin: 0 10px;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: white;
+}
+
+
+
+/*Titol de totes les pagines tret l'index*/
+.titol {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/* pagina principal */
+.titol-index {
+    font-size: 35px;
+    text-align: center;
+    margin: 80px;
+}
+.pelis-i-directors-index {
+    display: flex;
+    justify-content: center;
+}
+.pelis-i-directors-index img {
+    height: 270px;
+    width: 470px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.pelis-i-directors-index a:link, .pelis-i-directors-index a:visited {
+    text-align: center;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.pelis-i-directors-index a:hover {
+    color: white;
+}
+
+
+
+/* llista de pelis */
+.llista-pelis, .llista-directors {
+    display: flex;
+    justify-content: center;
+}
+.llista-pelis a:link, .llista-pelis a:visited, .llista-directors a:link, .llista-directors a:visited  {
+    font-size: 10px;
+    text-align: center;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.llista-pelis a:hover,.llista-directors a:hover {
+    color: #ffffff;
+}
+.llista-pelis img, .llista-directors img {
+    height: 340px;
+    width: 230px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+
+/*Informacio*/
+.text-info {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 70px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "cine", sans-serif;
+}
+
+
+
+/*Formulari per contactar amb l'equip encarregat del manteniment de la web*/
+.formulari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.entrada {
+    font-size: 18px;
+}
+.entrada-input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.boto-enviar {
+    background-color: #0b161c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boto-enviar:hover {
+    background-color: #1a2830;
+}
+
+
+
+/*Pelicules I Directors*/
+
+/*Imatge de fons*/
+.background-django {
+    background-image: url('../img/DjangoUnchainedWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-killers {
+    background-image: url('../img/KillersOfTheFlowerMoonWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-godfather {
+    background-image: url('../img/TheGodfatherWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-psycho {
+    background-image: url('../img/PsychoWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-eyes {
+    background-image: url('../img/EyesWideShutWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Titol de la pelicula*/
+.titol-peli {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+/*Informacio sobre la pelicula*/
+.pelis-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.pelis-info a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+.pelis-info a:hover {
+    color: #ffffff;
+}
+.pelis-info  img {
+    grid-column: 1;
+    height: 340px;
+    width: 230px;
+    margin: 25px 0 0 200px;
+    border-radius: 10px;
+}
+
+/*Sinopsi de la pelicula*/
+.sinopsi {
+    grid-column: 2;
+    margin-right: 200px;
+    margin-bottom: -50px;
+}
+
+/*Actors Principals*/
+.actors-principals {
+    grid-column: 2;
+    margin-top: -250px;
+    margin-right: 200px;
+}
+.actors-principals p {
+    color: #2a373f;
+}
+.actors-principals a:link, a:visited {
+    background-color: #3f4d5a;
+    border-radius: 5px;
+    color: #c5c5c5;
+}
+
+/*Critiques*/
+.critiques {
+    grid-column: 2;
+    margin-right: 200px;
+    margin-top: -110px;
+}
+
+/*Detalls de la pelicula*/
+.detalls {
+    grid-column: 1;
+    margin-top: -150px;
+    margin-left: 205px;
+}
+.detalls a:link, a:visited {
+    background-color: #3f4d5a;
+    border-radius: 5px;
+    color: #c5c5c5;
+    text-decoration: none;
+}
+.detalls a:hover {
+    color: white;
+}
+
+
+
+/*Directors*/
+
+/*Nom del director*/
+.titol-director {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Informacio sobre directors*/
+.directors-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/*Pelicules que ha fet el director disponibles a la web*/
+.pelis-disponibles {
+    grid-column: 1;
+    margin-left: 200px;
+}
+.pelis-disponibles img {
+    height: 200px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.director-img {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+.director-img img {
+    height: 340px;
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.director-info {
+    grid-column: 1 / span 2;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
